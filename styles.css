@@ -16,7 +16,7 @@
 }
 
 .header{
-     //background-color: red;
+     background-color: #283044;
      height: 200px;
 }
 
@@ -36,6 +36,7 @@
     text-align: center;
     padding-right: 40px;
     font-size: 25px;
+    color: #FF4242;
 
 
 }
@@ -63,7 +64,7 @@
 
 
 #section2 {
-    background-color: #fcfdfd;
+    background-color: #97EAD2;
     height: 800px;
     width: 100%;
     border-top: 1px solid lightgray;
@@ -76,14 +77,15 @@
 
 /* Footer **************************************************************/
 .footer{
-    background-color: black;
-    height: 500px;
+    background-color: #283044;
+    height: 600px;
     color: white;
+
 }
 
 #footerUL {
-    background-color: purple;
     padding-left: 0;
+    border-bottom: 1px solid white;
 
 }
 
@@ -98,28 +100,57 @@
 }
 
 #list1 {
-    background-color: red;
     margin-left: 12.5%;
+    vertical-align: top;
 
 
 }
 
 #list2 {
-    background-color: green;
-
+    vertical-align: top;
 
 
 }
 
 #list3 {
-    background-color: blue;
-
-
+    vertical-align: top;
 
 }
 
 #list2 ul li {
     list-style-type: none;
+}
+
+.footer h2 {
+    text-transform: uppercase;
+    padding-left: 15px;
+    color: #FF4242;
+
+}
+
+.footer p {
+    font-size: .75em;
+    line-height: 1.75em;
+    margin: 0;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #CFFCFF;
+}
+
+.social {
+    padding-left: 15px;
+    line-height: 2em;
+    color: #97EAD2;
+    display: block;
+    text-decoration: none;
+
+}
+
+.social span {
+    padding-left: 10px;
+
+
 }
 
 
