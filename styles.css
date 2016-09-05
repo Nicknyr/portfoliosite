@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+}
+
+.container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+
+/* Header and Nav ******************************************************/
+.header, .main, .footer {
+    width: 100%;
+}
+
+.header{
+     //background-color: red;
+     height: 200px;
+}
+
+.header ul{
+    text-align: center;
+    padding-top: 50px;
+    border-bottom: 1px solid #000;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 10px;
+
+}
+
+.header ul li{
+    display: inline;
+    text-align: center;
+    padding-right: 40px;
+    font-size: 25px;
+
+
+}
+
+
+
+
+
+
+
+/* Main Body ***********************************************************/
+.main{
+    //background-color: blue;
+    height: 400px;
+}
+
+.main h1{
+    text-align: center;
+}
+
+.main article{
+    text-align: center;
+}
+
+
+
+#section2 {
+    background-color: #fcfdfd;
+    height: 800px;
+    width: 100%;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* Footer **************************************************************/
+.footer{
+    background-color: black;
+    height: 500px;
+    color: white;
+}
+
+#footerUL {
+    background-color: purple;
+    padding-left: 0;
+
+}
+
+.footerRows {
+    display: inline-block;
+    list-style-type: none;
+    width: 25%;
+    height: 200px;
+    margin-top: 20px;
+
+
+}
+
+#list1 {
+    background-color: red;
+    margin-left: 12.5%;
+
+
+}
+
+#list2 {
+    background-color: green;
+
+
+
+}
+
+#list3 {
+    background-color: blue;
+
+
+
+}
+
+#list2 ul li {
+    list-style-type: none;
+}
+
+
+
+
+/*
+@media (min-width: 600px) {
+    .header {
+        width: 100%;
+        -webkit-order: 2;
+        order: 1;
+    }
+
+    .main {
+        width: 100%;
+        -webkit-order: 1;
+        order: 2;
+    }
+
+    .footer {
+        width: 100%;
+        -webkit-order: 3;
+        order: 3;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .header {
+        width: 100%;
+    }
+
+    .main {
+        width: 100%;
+    }
+}
+*/
