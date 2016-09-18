@@ -1,5 +1,11 @@
 /*  font-family: 'Montserrat', sans-serif;
 
+
+ red #e85a71
+ gray #d8e9ef
+ blue #4ea1d3
+ black #454552
+
 */
 
 
@@ -19,7 +25,13 @@ a {
     display: flex;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
+
 }
+
+img:hover {
+    background-color: red;
+}
+
 
 
 
@@ -29,14 +41,13 @@ a {
 }
 
 .header {
-     background-color: #283044;
+     background-color: #454552;
      height: 4em;
 }
 
 .header ul{
     text-align: center;
     padding-top: 1em;
-    border-bottom: 1px solid white;
     width: 75%;
     margin-left: 12.5%;
     margin-right: 12.5%;
@@ -63,11 +74,19 @@ a {
 /* Main Body ***********************************************************/
 .main{
     height: 15em;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
+    width: 100%;
+    color: black;
+    border-top: 1px solid white;
 
+
+}
+
+
+#intro {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3em;
 }
 
 .main h1{
@@ -87,10 +106,12 @@ a {
 
 
 
+
+/* Portfolio Section **************************************************************************************************/
 #portfolioSection {
     width: 100%;
     height: 800px;
-    background-color: #97EAD2;
+    border-top: 1px solid white;
 
 }
 
@@ -102,7 +123,7 @@ a {
     font-size: 2.7777777778em;
     line-height: 1.174em;
     text-align: center;
-    color: white;
+    color: black;
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -120,8 +141,42 @@ a {
 
 }
 
+/*#wrapper p {
+    position: relative;
+    bottom: 50px;
+    left: 0px;
+    visibility: hidden;
+}*/
 
+/*#wrapper h3 {
+    position:relative;
+    bottom:60px;
+    left:0px;
+    visibility:hidden;
+}*/
 
+.projectInfoClass {
+    background-color: #454552;
+    color: #FF4242;
+    visibility: hidden;
+    position: relative;
+    bottom: 65px;
+    left: 0px;
+    height: 60px;
+
+}
+
+.projectInfoClass h3 {
+    text-transform: uppercase;
+    font-size: 1em;
+    padding-top: .5em;
+    padding-left: .5em;
+}
+
+.projectInfoClass p {
+    padding-top: .5em;
+    padding-left: .5em;
+}
 
 /* Contact Form  ******************************************************/
 
@@ -129,7 +184,10 @@ a {
     height: 30em;
     width: 100%;
     background-color: #FF4242;
+    border-top: 1px solid white;
 }
+
+
 
 #formDiv h2 {
     margin: auto;
@@ -149,44 +207,48 @@ a {
     margin-left: 10%;
     margin-right: 10%;
 
+
 }
 
 #formDiv form input {
     display: block;
     font-size: 1.2em;
     width: 100%;
+
+
 }
 
 
-.column1 {
-    width: 49%;
-    float: left;
+.formBox {
+    width: 50%;
+    margin: auto;
+
 }
 
-.column1 input {
-    background-color: white;
+.formBox input {
+    background-color: snow;
+
 }
 
-.column2 textarea {
-    background-color: white;
-}
-
-.column2 {
-    width: 49%;
-}
-
-.column2 textarea {
+.formBox textarea {
     width: 100%;
     font-size: 1.2em;
+}
+
+.formBox button {
+    width: 100%;
+    height: 3em;
+    background-color: snow;
 }
 
 
 
 /* Footer **************************************************************/
 .footer{
-    background-color: #283044;
+    border-top: 1px solid white;
+    background-color: #454552;
     height: 16em;
-    color: white;
+    color: #454552;
 
 }
 
@@ -236,7 +298,7 @@ a {
 
 #list3 ul {
     padding-left: 15px;
-    color: #CFFCFF;
+    color: #4ea1d3;
     font-size: .8em;
     line-height: 1.75em;
 
@@ -260,7 +322,7 @@ a {
     padding-bottom: 25px;
     padding-left: 15px;
     padding-right: 15px;
-    color: #CFFCFF;
+    color: white;
 }
 
 .social {

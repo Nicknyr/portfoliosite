@@ -5,6 +5,8 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js.js"></script>
 
     <title>Nick Kinlen Freelance Web Developer</title>
 
@@ -26,14 +28,10 @@
     </header>
 
     <section class="main">
-
-
-        <article>
+        <article id="intro">
             <h1>Hi, my name is Nick and I make websites</h1>
             <p>Bacon ipsum dolor amet drumstick shankle t-bone jerky kevin ribeye turducken kielbasa. Pork filet mignon cupim, sausage porchetta tail brisket tri-tip. Drumstick spare ribs meatball, meatloaf fatback shank kielbasa kevin pastrami tri-tip ground round beef ribs corned beef shoulder. Kielbasa meatloaf shankle chuck tenderloin, ground round spare ribs beef ribs capicola rump.</p>
         </article>
-
-
     </section>
 
 
@@ -41,30 +39,62 @@
     <section id="portfolioSection">
         <div class="portfolioWork">
             <h2 id="portfolioH2">Projects</h2>
+            <div id="wrapper">
             <ul id="portfolioRow1">
-                <li><img src="images/placeholder.jpg"></li>
-                <li><img src="images/placeholder.jpg"></li>
-                <li><img src="images/placeholder.jpg"></li>
-                <li><img src="images/placeholder.jpg"></li>
-                <li><img src="images/placeholder.jpg"></li>
-                <li><img src="images/placeholder.jpg"></li>
-            </ul>
+                <li><img src="images/placeholder.jpg" class="hover1">
+                    <div id="projectInfo1" class="projectInfoClass">
+                        <h3 class="projectH3-1">Random Quoute Generator</h3>
+                        <p class="text1">A project</p>
+                    </div>
+                </li>
+                <li><img src="images/placeholder.jpg" class="hover2">
+                    <div id="projectInfo2" class="projectInfoClass">
+                        <h3 class="projectH3-2">Random Quoute Generator</h3>
+                        <p class="text2">A project</p>
+                    </div>
+                </li>
+                <li><img src="images/placeholder.jpg" class="hover3">
+                    <div id="projectInfo3" class="projectInfoClass">
+                        <h3 class="projectH3-3">Random Quoute Generator</h3>
+                        <p class="text3">A project</p>
+                    </div>
+                </li>
+                <li><img src="images/placeholder.jpg" class="hover4">
+                    <div id="projectInfo4" class="projectInfoClass">
+                        <h3 class="projectH3-4">Random Quoute Generator</h3>
+                        <p class="text4">A project</p>
+                    </div>
+                </li>
+                <li><img src="images/placeholder.jpg" class="hover5">
+                    <div id="projectInfo5" class="projectInfoClass">
+                        <h3 class="projectH3-5">Random Quoute Generator</h3>
+                        <p class="text5">A project</p>
+                    </div>
+                </li>
+                <li><img src="images/placeholder.jpg" class="hover6">
+                    <div id="projectInfo6" class="projectInfoClass">
+                        <h3 class="projectH3-6">Random Quoute Generator</h3>
+                        <p class="text6">A project</p>
+                    </div>
+                </li>
+             </ul>
+            </div>
         </div>
     </section>
 
 
     <div id="formDiv">
         <h2>Contact me</h2>
-        <form class="form">
-            <div class="column1">
+        <form class="formBox">
+            <div class="form">
                 <input type="text" name="name" placeholder="Your Name">
                 <input type="text" name="email" placeholder="Email">
                 <input type="text" name="phone" placeholder="Phone number">
-            </div>
-            <div class="column2">
                 <textarea id="field_message" name="message" rows="10" cols="80" placeholder="Your Message"></textarea>
+                <button class="submit" type="submit">Submit Form</button>
             </div>
         </form>
+        </div>
     </div>
 
 
@@ -78,7 +108,7 @@
             <h2>Social Media</h2>
                 <a class="social" href="http://www.google.com"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i><span>Facebook</span></a>
                 <a class="social" href="http://www.google.com"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i><span>Twitter</span></a>
-                <a class="social" href="http://www.google.com"><i class="fa fa-github fa-2x" aria-hidden="true"></i><span>Github</span></a>
+                <a class="social" href="https://github.com/Nicknyr"><i class="fa fa-github fa-2x" aria-hidden="true"></i><span>Github</span></a>
         </li>
         <li id="list3" class="footerRows">
             <h2>What I do</h2>
