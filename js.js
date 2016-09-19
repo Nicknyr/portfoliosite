@@ -3,7 +3,7 @@ $(document).ready(function(){
     $('.hover1').mouseover(function() {
         $('.projectH3-1').css("visibility","visible");
         $('.text1').css("visibility","visible");
-        $('#projectInfo1').css("visibility", "visible");
+        $('#projectInfo1').css("visibility","visible");
 });
 
 
