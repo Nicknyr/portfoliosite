@@ -12,6 +12,10 @@
   margin: 0;
 }
 
+p {
+        font-size: 18px;
+}
+
 a {
     text-decoration: none;
     list-style-type: none;
@@ -33,7 +37,7 @@ a {
 }
 
 .header {
-     background-color: #454552;
+     background-color: #3F4045;
      height: 4em;
 }
 
@@ -52,7 +56,7 @@ a {
     text-align: center;
     padding-right: 40px;
     font-size: 20px;
-    color: #FF4242;
+    color: #7FEFBD;
     text-transform: uppercase;
 
 }
@@ -60,20 +64,33 @@ a {
 
 /* Main Body ***********************************************************/
 .main{
-    height: 15em;
+    height: 42em;
     width: 100%;
     color: black;
     border-top: 1px solid white;
-
-
 }
 
+#mainParagraph {
+        width: 60%;
+        margin: auto;
+        padding-top: 2em;
+        padding-bottom:  2em;
+}
 
 #intro {
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
-    margin-top: 3em;
+    margin-top: 5em;
+
+}
+
+#headshot {
+        margin: auto;
+        border-radius: 20em;
+        height: 30%;
+        width: 30%;
+         box-shadow: 3px 3px 3px #888888;
 }
 
 .main h1{
@@ -83,6 +100,7 @@ a {
     letter-spacing: -5px;
     font-size: 2.7777777778em;
     line-height: 1.174em;
+    margin-top: 1em;
 
 }
 
@@ -97,12 +115,25 @@ a {
 #portfolio {
         width: 100%;
         height: 800px;
-        background-color: grey;
+}
+
+#portfolioH2 {
+        margin: auto;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: -5px;
+        font-size: 2.7777777778em;
+        line-height: 1.174em;
+        text-align: center;
+        color: black;
+        padding-top: 20px;
+
+
 }
 
 #portfolioProjects {
         margin-left: 12.5%;
-        margin-top: 5em;
+        margin-top: 1em;
 }
 
 #portfolioProjects li {
@@ -125,19 +156,20 @@ a {
   color: #fff;
   visibility: hidden;
   opacity: 0;
-
-
+ padding-top: 40%;
+  text-align: center;
+  font-size: 1.2em;
 }
-
 
 .imgWrap:hover .imgDescription {
   visibility: visible;
   opacity: 1;
 }
+
 /* Contact Form  ******************************************************/
 
-#formDiv {
-    height: 30em;
+#formSection {
+    height: 32em;
     width: 100%;
     background-color: #FF4242;
     border-top: 1px solid white;
@@ -145,7 +177,7 @@ a {
 
 
 
-#formDiv h2 {
+#formSection h2 {
     margin: auto;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -154,52 +186,77 @@ a {
     line-height: 1.174em;
     text-align: center;
     color: white;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
-.form {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-top: .5em;
+    padding-bottom: .5em;
 
 }
 
-#formDiv form input {
-    display: block;
-    font-size: 1.2em;
-    width: 100%;
+form {
+        max-width: 450px;
+        margin: 0 auto 50px;
 
 }
 
-
-.formBox {
-    width: 50%;
-    margin: auto;
-
+input, textarea {
+        border: 3px solid #283044;
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
 }
 
-.formBox input {
-    background-color: snow;
-
+#formButton {
+        background: #283044;
+        color: white;
+        font-size : 18px;
+        text-transform: uppercase;
+        width: 33%;
 }
 
-.formBox textarea {
-    width: 100%;
-    font-size: 1.2em;
+#formButton:hover {
+        background:  #97EAD2;;
 }
 
-.formBox button {
-    width: 100%;
-    height: 3em;
-    background-color: snow;
+.submit-wrap {
+        text-align: right;
 }
 
+input:focus,  textarea:focus {
+        outline: none;
+        border-color: #97EAD2;
+}
+
+textarea {
+        height: 10em;
+        font-size: 16px;
+        font-weight: bold;
+}
+
+
+.contact-info-group label{
+        width: 50%;
+        /*padding-right: 10px;*/
+        float: left;
+        box-sizing: border-box;
+}
+
+
+label {
+        display: block;
+        margin-bottom: 20px;
+}
+
+form span {
+        display: block;
+        font-size: 1.1em;
+        color: white;
+        padding-bottom: .3em;
+}
 
 /* Footer **************************************************************/
 .footer{
     border-top: 1px solid white;
-    background-color: #454552;
+    background-color: #3F4045;
     height: 16em;
     color: #454552;
 
@@ -322,7 +379,7 @@ a {
 
 }
 
-li a:hover {
+ li a:hover {
     color: white;
 }
 

@@ -29,12 +29,15 @@
 
     <section class="main">
         <article id="intro">
+            <img src="images/headshot.jpg" alt="My picture" id="headshot">
             <h1>Hi, my name is Nick and I make websites</h1>
-            <p>Bacon ipsum dolor amet drumstick shankle t-bone jerky kevin ribeye turducken kielbasa. Pork filet mignon cupim, sausage porchetta tail brisket tri-tip. Drumstick spare ribs meatball, meatloaf fatback shank kielbasa kevin pastrami tri-tip ground round beef ribs corned beef shoulder. Kielbasa meatloaf shankle chuck tenderloin, ground round spare ribs beef ribs capicola rump.</p>
+                    <p id="mainParagraph">Bacon ipsum dolor amet drumstick shankle t-bone jerky kevin ribeye turducken kielbasa. Pork filet mignon cupim, sausage porchetta tail brisket tri-tip. Drumstick spare ribs meatball, meatloaf fatback shank kielbasa kevin pastrami tri-tip ground round beef ribs corned beef shoulder. Kielbasa meatloaf shankle chuck tenderloin, ground round spare ribs beef ribs capicola rump.</p>
         </article>
     </section>
 
+
 <section id="portfolio">
+        <h2 id="portfolioH2">Portfolio</h2>
         <ul id="portfolioProjects">
                 <li>
                         <div class="imgWrap">
@@ -44,8 +47,8 @@
                  </li>
                  <li>
                          <div class="imgWrap">
-                                  <img src="images/placeholder.png" alt="polaroid" />
-                                   <p class="imgDescription">This image looks super neat.</p>
+                                  <img src="images/placeholder.png" alt="polaroid">
+                                   <a href="https://codepen.io/nick_kinlen/pen/VLxZBQ"><p class="imgDescription">A random quote generator made for a Free Code Camp project.</p></a>
                          </div>
                   </li>
                   <li>
@@ -75,19 +78,31 @@
         </ul>
 </section>
 
-    <div id="formDiv"
-        <h2>Contact me</h2>
-        <form class="formBox">
-            <div class="form">
-                <input type="text" name="name" placeholder="Your Name">
-                <input type="text" name="email" placeholder="Email">
-                <input type="text" name="phone" placeholder="Phone number">
-                <textarea id="field_message" name="message" rows="10" cols="80" placeholder="Your Message"></textarea>
-                <button class="submit" type="submit">Submit Form</button>
-            </div>
-        </form>
-        </div>
-    </div>
+
+  <section id="formSection">
+          <h2>Contact</h2>
+                  <form method="post" action="#">
+                        <div class="contact-info-group">
+                                <label>
+                                        <span>Your Name</span>
+                                        <input type="text" name="name">
+                                </label>
+                                 <label>
+                                         <span>Your Email</span>
+                                        <input type="email" name="mail" >
+                                </label>
+                        </div>
+
+                        <label>
+                                <span>Tell me about your project</span>
+                                <textarea name="message"></textarea>
+                        </label>
+
+                        <div class="submit-wrap">
+                                <input type="submit" value="Send" id="formButton">
+                        </div>
+          </form>
+  </section>
 
 
 <footer class="footer">
